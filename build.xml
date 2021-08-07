@@ -1,27 +1,13 @@
-<bookstore>
+<?xml version="1.0"?>
 
-  <book category="children">
+<project name="Hello World Project" default="info">
 
-    <title>Harry Potter</title>
+<target name="info">
 
-    <author>J K. Rowling</author>
+<echo> Hello World - Welcome to Simplilearn</echo>
 
-    <year>2005</year>
+</target>
 
-    <price>29.99</price>
+</project>
 
-  </book>
 
-  <book category="web">
-
-    <title>Learning XML</title>
-
-    <author>Erik T. Ray</author>
-
-    <year>2003</year>
-
-    <price>39.95</price>
-
-  </book>
-
-</bookstore>
